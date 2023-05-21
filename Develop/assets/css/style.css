@@ -1,48 +1,49 @@
+/*all elements selector*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*header 1*/
 h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/*header 2*/
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*header 3*/
 h3 {
     margin-top: 5px;
     margin-bottom: 10px;
     text-align: center;
     color: #ffffff;
 }
-
+/*body of webpage*/
 body {
     background-color: #d9dcd6;
 }
-
+/*links at top of page - removal of underline*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/*paragraph ammendments*/
 p {
     font-size: 16px;
     color: #ffffff;
     margin-bottom: 10px;
 }
-
+/*header of webpage*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/*header - section*/
 .header section {
     padding-top: 15px;
     margin-right: 20px;
@@ -50,12 +51,12 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/*header - section - ordered list elements*/
 .header section ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*hero*/
 .hero {
     height: 800px;
     width: 100%;
@@ -64,23 +65,39 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*image position - float left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/*image position - float right*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/*Principal content on page*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*main content - sub-styling*/
+.content2 {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*main content - sub-styling images*/
+.content2 img {
+    max-height: 200px;
+}
+
+/*right side of the page - further content*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -91,33 +108,21 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*right side of the page - further content icons*/
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.content2 {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content2 img {
-    max-height: 200px;
-}
-
+/*footer styling*/
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/*footer header styling*/
 .footer h2 {
     font-size: 20px;
 }
