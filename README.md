@@ -1,9 +1,6 @@
 # 01-Challenge
 
 ## Description
-
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
 - What was your motivation?
 My motivation of this project was to streamline the code of an existing webpage by re ordering to code so that it was more efficient and easier to make semantic sense of.
 
